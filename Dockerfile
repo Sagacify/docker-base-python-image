@@ -8,14 +8,15 @@ RUN apt-get update \
         libopenblas-base \
         libatlas-base-dev \
       && apt-get clean \
-      && pip3 install -U \
-        pip \
+      && pip3 install -U pip \
         pep8 \
         pep257 \
         pyflakes \
         pylint \
-        nose2[coverage] \
+        nose2 \
+        coverage \
         numpy \
         scipy \
         igraph \
+        scikit-learn \
         wordfreq
