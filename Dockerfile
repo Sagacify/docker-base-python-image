@@ -17,6 +17,6 @@ RUN apt-get update \
         codacy-coverage \
         numpy \
         scipy \
-        igraph \
+        python-igraph \
         scikit-learn \
         wordfreq
