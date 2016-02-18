@@ -14,6 +14,7 @@ RUN apt-get update \
         pyflakes \
         pylint \
         pytest-cov \
+        codacy-coverage \
         numpy \
         scipy \
         igraph \
