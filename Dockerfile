@@ -13,8 +13,7 @@ RUN apt-get update \
         pep257 \
         pyflakes \
         pylint \
-        nose2 \
-        coverage \
+        pytest-cov \
         numpy \
         scipy \
         igraph \
